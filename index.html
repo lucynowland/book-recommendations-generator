@@ -7,44 +7,49 @@
     <title>AI Book Recommendations Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Book Recommendations Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Book Recommendations Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the genre(s) you wish to receive a recommendation for"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Enter the genre(s) you wish to receive a recommendation for"
+            required
+          />
+          <input type="submit" class="submit-btn" />
+        </form>
 
-      <div>
-        Book Recommendation
-        <br />
-        Brief Description
-      </div>
-    </main>
+        <div class="recommendation-response">
+          Book Recommendation
+          <br />
+          <br />
+          Brief Description
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/lucynowland" target="_blank">Lucy Nowland</a>
-      which is open-sourced on
-      <a
-        href="https://github.com/lucynowland/book-recommendations-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a
-        href="https://book-recommendations-generator.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
-    <script src="src/script.js"></script>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/lucynowland" target="_blank"
+          >Lucy Nowland</a
+        >
+        which is open-sourced on
+        <a
+          href="https://github.com/lucynowland/book-recommendations-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://book-recommendations-generator.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+      <script src="src/script.js"></script>
+    </div>
   </body>
 </html>

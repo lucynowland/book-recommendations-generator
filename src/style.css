@@ -1,1 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap");
 
+.container {
+  background-color: #69140e;
+  border-radius: 15px;
+  margin: 120px auto;
+  max-width: 850px;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/966/original/library-wallpaper.jpeg?1703151077");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #fbead4;
+  font-family: "Shadow Into Light", cursive;
+  font-size: 46px;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
+
+form {
+  background-color: #bc6a3b;
+  border: 0.5px solid #fbead4;
+  border-radius: 15px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 650px;
+  padding: 20px;
+}
+
+.form-input {
+  border: 1.5px solid white;
+  border-radius: 10px;
+  background-color: #fbead4;
+  color: black;
+  font-size: 18px;
+  font-family: "Caveat", cursive;
+  line-height: 1.5;
+  padding: 10px;
+  width: 85%;
+}
+
+.submit-btn {
+  background-color: #fbead4;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: "Caveat", cursive;
+  margin-left: 12px;
+  width: 10%;
+}
+
+.recommendation-response {
+  background-color: #bc6a3b;
+  border-radius: 10px;
+  border-left: 1.5px solid #fbead4;
+  color: #fbead4;
+  display: block;
+  font-size: 24px;
+  font-family: "Shadow Into Light", cursive;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 90%;
+}
+
+footer {
+  color: #fbead4;
+  font-size: 18px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: #fbead4;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
