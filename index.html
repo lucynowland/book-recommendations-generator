@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Book Recommendations Generator</title>
   </head>
@@ -17,6 +18,7 @@
         <form id="recommendation-generator-form">
           <input
             class="form-input"
+            id="user-genre"
             type="text"
             placeholder="Enter the genre(s) you wish to receive a recommendation for"
             required
@@ -24,9 +26,7 @@
           <input type="submit" class="submit-btn" />
         </form>
 
-        <div class="recommendation-response" id="book-recommendation">
-          Recommendation Response
-        </div>
+        <div class="recommendation-response" id="book-recommendation"></div>
       </main>
 
       <footer>
