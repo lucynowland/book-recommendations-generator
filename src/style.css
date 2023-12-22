@@ -32,7 +32,7 @@ form {
   border-radius: 15px;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   max-width: 650px;
   padding: 20px;
 }
@@ -78,7 +78,7 @@ footer {
   font-family: "Caveat", cursive;
   font-weight: bold;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 a {
@@ -90,4 +90,14 @@ a {
 a:hover {
   color: white;
   text-decoration: underline;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
