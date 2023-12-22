@@ -1,6 +1,4 @@
 function displayBookRecommendation(response) {
-  console.log("Generated Book Recommendation...");
-
   new Typewriter("#book-recommendation", {
     strings: response.data.answer,
     autoStart: true,
